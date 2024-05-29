@@ -12,8 +12,7 @@ python runme.py
 ## Limitations
 This function operates only on 60-sec or longer events with ResNet-based architecture, using input signal in the frequency domain (i.e. STFT). The network architecture is shown below. Please refer to the arXiv paper (link?) for details. 
 
-![image](https://github.com/melekturkmen/EarthQuake_localization/assets/44256504/e20ab4c6-1e19-4cc2-b2fd-5f66d0900cfc)
-
+![image](https://github.com/melekturkmen/EarthQuake_localization/assets/44256504/3fc19cbb-86f2-440a-8723-e56a3b3f8084)
 
 ## Installation
 No additional installations (other than PyTorch) are required to run this project. All requirements are basic.
