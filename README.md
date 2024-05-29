@@ -1,8 +1,8 @@
 # EarthQuake_localization
-Python code demonstrating predictions and actual values of earthquake epicenters over Turkey.
+Python code demonstrating predictions and actual values of earthquake epicenters over Turkey. Please refer to the arXiv paper (link?) for details. 
 
 ## Introduction
-This repository contains pre-trained model to make inferences and samples to plot the model predictions against actual earthquake locations.
+This repository contains pre-trained model to make inferences and samples to plot the model predictions against actual earthquake locations. 
 
 By executing this file, runme.py, you can visualize the results. You can use the following command to run the code. 
 ```bash
@@ -10,7 +10,7 @@ python runme.py
 ```
 
 ## Limitations
-This function operates only on 60-sec or longer events with ResNet-based architecture, using input signal in the frequency domain (i.e. STFT). The network architecture is shown below. Please refer to the arXiv paper (link?) for details. 
+This function operates only on 60-sec or longer events with ResNet-based architecture, using input signal in the frequency domain (i.e. STFT). The network architecture is shown below.
 
 ![image](https://github.com/melekturkmen/EarthQuake_localization/assets/44256504/3fc19cbb-86f2-440a-8723-e56a3b3f8084)
 
