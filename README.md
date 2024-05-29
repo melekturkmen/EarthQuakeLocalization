@@ -1,5 +1,7 @@
-# EarthQuake_localization
-Python code demonstrating predictions and actual values of earthquake epicenters over Turkey. Please refer to the arXiv paper (link?) for details. 
+# Deep Learning-based Epicenter Localization using Single-Station Strong Motion Records
+Python code applying deep learning techniques to strong motion records in order to locate epicenters at single stations of Türkiye. Please refer to the arXiv paper (link?) for details. 
+This study examines whether strong motion records, which are rarely used for seismology-related studies, contain information about an earthquake's characteristics, and whether DL-based methods can benefit from them.
+The paper introduces a large-scale strong motion record collection, AFAD-1218, which contains over 36,000 strong motion records from Turkey.
 
 ## Introduction
 This repository contains pre-trained model to make inferences and samples to plot the model predictions against actual earthquake locations. 
