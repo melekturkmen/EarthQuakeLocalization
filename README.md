@@ -10,7 +10,7 @@ python runme.py
 ```
 
 ## Limitations
-This function operates only on 60-sec or longer events with residual network in time domain.
+This function operates only on 60-sec or longer events with residual network in frequency domain.
 
 ## Installation
 No additional installations (other than PyTorch) are required to run this project. All requirements are basic.
@@ -18,9 +18,14 @@ No additional installations (other than PyTorch) are required to run this projec
 ## Usage
 Clone the repository to your local machine.
 Navigate to the project directory, and adjust the code according to the working directory.
-Run the plotEpicenter.py file using the command provided above.
+Run the runme.py file using the command provided above.
 
-You can use the plotEpicenter.py with the default arguments.
+## Output
+
+The output figures will be saved in "figs" folder.
+
+![image](https://github.com/melekturkmen/EarthQuake_localization/assets/44256504/65dfe388-ab14-46fb-a538-4b3f3a2e2b1d)
+
 
 ## Contributions
 Contributions are welcome. Feel free to provide any feedback or suggestions.
