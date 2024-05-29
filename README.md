@@ -10,7 +10,7 @@ python runme.py
 ```
 
 ## Limitations
-This function operates only on 60-sec or longer events with residual network in frequency domain.
+This function operates only on 60-sec or longer events with ResNet-based architecture, using input signal in the frequency domain (i.e. STFT).
 
 ## Installation
 No additional installations (other than PyTorch) are required to run this project. All requirements are basic.
@@ -22,7 +22,7 @@ Run the runme.py file using the command provided above.
 
 ## Output
 
-The output figures will be saved in "figs" folder.
+The output figures for sample EQ events (sampleQuakes folder) are saved in "figs" folder. A sample result is shown below. 
 
 ![image](https://github.com/melekturkmen/EarthQuake_localization/assets/44256504/65dfe388-ab14-46fb-a538-4b3f3a2e2b1d)
 
