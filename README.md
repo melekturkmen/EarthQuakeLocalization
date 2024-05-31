@@ -1,5 +1,5 @@
 # Deep Learning-based Epicenter Localization using Single-Station Strong Motion Records
-Python code applying deep learning techniques to strong motion records in order to locate epicenters at single stations of Türkiye. Please refer to the arXiv paper (link?) for details. 
+Python code applying deep learning techniques to strong motion records in order to locate epicenters at single stations of Türkiye. Please refer to the arXiv paper (https://github.com/melekturkmen/EarthQuakeLocalization) for details. 
 This study examines whether strong motion records, which are rarely used for seismology-related studies, contain information about an earthquake's characteristics, and whether DL-based methods can benefit from them.
 The paper introduces a large-scale strong motion record collection, AFAD-1218, which contains over 36,000 strong motion records from Turkey.
 
