@@ -11,6 +11,21 @@ By executing this file, runme.py, you can visualize the results. You can use the
 python runme.py
 ```
 
+## Dataset
+This study uses the AFAD-1218 dataset, a comprehensive collection of over 36,000 strong motion records from Turkey. These records were obtained from Turkey's national strong-motion network operated by the Disaster and Emergency Management Authority (AFAD). The dataset spans a wide range of seismic events and regions, providing a rich resource for deep learning applications.
+
+Characteristics of the AFAD-1218 dataset:
+
+Number of Records: 36,418
+Sampling Rate: All sampled at 100 Hz
+Duration: Varying evetn durations from 5 to 300 seconds
+SNR: ranging from a few dBs to 100 dB. We have eliminated the signals with SNR values lower than 25 dB in training process.
+Geographic Coverage: Nation-wide strong ground motion stations across Turkey
+Features: Includes ground acceleration time series and metadata, such as event magnitude, epicenter location, and station coordinates.
+The dataset was preprocessed to include only events with sufficient signal-to-noise ratio and to transform the raw time-domain signals into frequency-domain representations using the Short-Time Fourier Transform (STFT).
+
+For more details, refer to our [arXiv publication on deep learning-based earthquake epicenter localization](https://arxiv.org/abs/2405.18451).
+
 ## Limitations
 This repo operates only on 60-sec or longer events with ResNet-based architecture, using input signal in the frequency domain (i.e. STFT). The network architecture is shown below.
 
